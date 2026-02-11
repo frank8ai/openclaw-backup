@@ -1,7 +1,25 @@
 # OpenClaw 完整备份
 
 **备份时间:** 2026-02-11 16:40  
-**备份位置:** 本地 + GitHub
+**GitHub:** https://github.com/frank8ai/openclaw-backup  
+**本地:** `/Users/yizhi/Dropbox/Backups/OpenClaw_20260211_164054/`
+
+---
+
+## ☁️ 备份策略
+
+### GitHub (小文件)
+- ✅ `restore.sh` - 一键恢复脚本
+- ✅ `checksums.sha256` - SHA256 校验
+- ✅ `README.md` - 恢复指南
+
+### Google Drive (大文件)
+- 📦 `openclaw_core.tar.gz` (~308M) - OpenClaw 核心配置
+- 📦 `obsidian_knowledge_base.tar.gz` (~43K) - Obsidian 知识库
+- 📦 `skills_all.tar.gz` (~84K) - 所有 Skills
+- 📦 `workspace_files.tar.gz` (~4.5M) - Workspace 文件
+
+> **注意:** 大文件通过 Dropbox 自动同步到 Google Drive，不通过 GitHub（GitHub 单文件限制 100M）
 
 ---
 
